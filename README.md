@@ -25,13 +25,13 @@ totalCoffee = float(numberCoffee) * priceCoffee
 totalMuffin = float(numberMuffin) * priceMuffin
 totalScone = float(numberScone) * priceScone
 totalMatcha = float(numberMatcha) * priceMatcha
-print(numberCoffee, "coffee at $5 each:$", totalCoffee)
-print(numberMuffin, "muffin at $4 each:$", totalMuffin)
-print(numberScone, "scone at $3 each:$", totalScone)
-print(numberMatcha, "matcha at $6 each:$", totalmatcha)
+print(numberCoffee, "coffee at $5 each:$", format(totalCoffee,'0.2f'))
+print(numberMuffin, "muffin at $4 each:$", format(totalMuffin,'0.2f'))
+print(numberScone, "scone at $3 each:$", format(totalScone,'0.2f'))
+print(numberMatcha, "matcha at $6 each:$", format(totalMatcha,'0.2f'))
 taxX = 0.06 * (totalCoffee + totalMuffin + totalMatcha + totalScone)
 #after total amount is calculated, tax is calculated
-print("6% tax:$", taxX)
+print("6% tax:$", format(taxX,'0.2f'))
 print("---------")
 #total number including tax 
 totalReceipt = taxX + totalCoffee + totalMuffin + totalMatcha + totalScone
