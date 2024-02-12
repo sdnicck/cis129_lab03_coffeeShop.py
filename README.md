@@ -37,3 +37,4 @@ print("---------")
 totalReceipt = taxX + totalCoffee + totalMuffin + totalMatcha + totalScone
 print("Total:$", round(totalReceipt,2))
 print("**************************************")
+print("Thank you! Come back again soon!")
