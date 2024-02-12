@@ -4,12 +4,16 @@
 print("**************************************")
 print("Nick's Coffee and Muffin Shop")
 print("Number of coffees bought?")
-numberCoffee = input()
+numberCoffee = float(input())
 print("Number of muffins bought!")
-numberMuffin = input() 
+numberMuffin = float(input())
 print("**************************************")
 print("\n")
 print("**************************************")
 print("Nick's Coffee and Muffin Shop Receipt")
 priceCoffee = 5.00
-priceMuffin = 8.00
+priceMuffin = 4.00
+totalCoffee = numberCoffee * priceCoffee
+totalMuffin = numberMuffin * priceMuffin
+print(numberCoffee, "coffee at $5 each: $", totalCoffee)
+print(numberMuffin, "coffee at $5 each: $", totalMuffin)
