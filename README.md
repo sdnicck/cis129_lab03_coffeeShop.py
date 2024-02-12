@@ -16,7 +16,7 @@ priceMuffin = 4.00
 totalCoffee = float(numberCoffee) * priceCoffee
 totalMuffin = float(numberMuffin) * priceMuffin
 print(numberCoffee, "coffee at $5 each: $", totalCoffee)
-print(numberMuffin, "coffee at $5 each: $", totalMuffin)
+print(numberMuffin, "coffee at $4 each: $", totalMuffin)
 taxX = 0.06 * (totalCoffee + totalMuffin)
 print("6% tax: $", taxX)
 print("---------")
