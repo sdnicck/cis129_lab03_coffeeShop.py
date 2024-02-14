@@ -30,7 +30,7 @@ print(numberMuffin, "muffin at $4 each:$", format(totalMuffin,'0.2f'))
 print(numberScone, "scone at $3 each:$", format(totalScone,'0.2f'))
 print(numberMatcha, "matcha at $6 each:$", format(totalMatcha,'0.2f'))
 taxX = 0.06 * (totalCoffee + totalMuffin + totalMatcha + totalScone)
-#after total amount is calculated, tax is calculated
+#after total amount is calculated, tax is calculated and added to total
 print("6% tax:$", format(taxX,'0.2f'))
 print("---------")
 #total amount spent including tax 
